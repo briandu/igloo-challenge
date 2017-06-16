@@ -29,6 +29,10 @@ a{
 .banner {
   height: 308px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url('../assets/community-members-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
