@@ -26,6 +26,19 @@ a{
   margin: 0 auto;
 }
 
+.navigation {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#n-primary a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
 .banner {
   height: 308px;
   width: 100%;
