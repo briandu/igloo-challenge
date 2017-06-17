@@ -4,11 +4,14 @@
 
     <title>Web Challenge</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- Using Fontawesome for the search icon or an alternative would be downloading Google material search icon and import it as svg-->
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.min.js"></script>
     <script src="js/apiClient.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -42,7 +45,10 @@
     <div id="content">
 
       <h2>Members</h2>
-      <!--Insert Members Here -->
+
+      <ul id="members">
+
+      </ul>
 
       <a id="js-btn-action-more" class="btn-load-more" href="#">Load more</a>
     </div>
