@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+button {
+  padding: 14px 22px;
+}
+
 h1 {
   font-size: 57px;
   font-weight: 300;
@@ -24,10 +28,17 @@ h3 {
 h4 {
   font-size: 20px;
   text-transform: capitalize;
+  margin: 16px 0 0 0;
 }
 
 h5 {
+  color: #666666;
   font-size: 13px;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
 }
 
 #n-primary li {
@@ -110,6 +121,7 @@ input[type=text]::placeholder{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .item {
@@ -120,6 +132,15 @@ input[type=text]::placeholder{
   height: 120px;
   width: 120px;
   border-radius: 100px;
+}
+
+#js-btn-action-more {
+  font-size: 14px;
+  background: #4a90e2;
+  color: white;
+  margin: 65px 0 70px 0;
+  border: none;
+  border-radius: 3px;
 }
 
 .footer {
